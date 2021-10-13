@@ -1,2 +1,4 @@
-# MyBot
-My First Bot
+# Sample Bot
+Simple Telegram Bot Based on Pyrogram
+
+
