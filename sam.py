@@ -16,10 +16,10 @@ START_IMG = ["https://telegra.ph/file/00b0aa858250ec4229e54.jpg",
 #=======================================================================
 
 
-Sam = Client(api_id=1234567,
-            session_name="Samantha",
-            api_hash="t5h8a4ndg9ba59mgs58lo2h90ndr72bins",                      
-            bot_token="61952638:AbCdEfGhIjKlMnOp")
+Sam = Client(api_id=1234567, #Put Your API ID Here
+            session_name="Samantha", 
+            api_hash="t5h8a4ndg9ba59mgs58lo2h90ndr72bins", # Put Your API Hash Here                 
+            bot_token="61952638:AbCdEfGhIjKlMnOp") # Put Your Bot Token Here
 
 #=======================================================================
 
