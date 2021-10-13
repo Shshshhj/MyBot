@@ -1,3 +1,5 @@
+#👀
+
 import pyrogram
 import random
 
@@ -28,7 +30,7 @@ def start(client, cmd):
          buttons = [
                       [
                          InlineKeyboardButton('Help', callback_data="help"),
-                         InlineKeyboardButton('Source Code', url='https://github.com/Arun-TG/SampleBot')
+                         InlineKeyboardButton('Source Code', url='https://github.com/Arun-TG/MyBot')
                       ],
                       [
                          InlineKeyboardButton('Channel', url='https://t.me/CC_ChannelNew')
