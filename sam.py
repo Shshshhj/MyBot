@@ -23,7 +23,7 @@ Sam = Client(api_id=1234567, #Put Your API ID Here
             api_hash="t5h8a4ndg9ba59mgs58lo2h90ndr72bins", # Put Your API Hash Here                 
             bot_token="61952638:AbCdEfGhIjKlMnOp") # Put Your Bot Token Here
 
-#=======================================================================
+#==COMMANDS=====================================================================
 
 @Sam.on_message(filters.command(['start']))
 def start(client, cmd):
@@ -39,7 +39,7 @@ def start(client, cmd):
          cmd.reply_photo(photo=random.choice(START_IMG), caption=START_MSG.format(cmd.from_user.mention), reply_markup=InlineKeyboardMarkup(buttons))
                
          
-#=======================================================================
+#==CALLBACK=====================================================================
 
 @Sam.on_callback_query()
 async def cb_handler(client: Client, query: CallbackQuery):
