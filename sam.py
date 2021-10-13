@@ -51,7 +51,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         pass
     if (clicked == typed):
                   if query.data == "help":
-                           await query.message.edit(text="No Help 😏")
+                           await query.message.edit(text="**No Help For You\n🤭😏**")
 
 #=======================================================================
 
