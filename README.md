@@ -7,4 +7,6 @@ Simple Telegram Bot Based on Pyrogram
 * Connect app with this repo and deploy
 * ✅
 
+* DON'T FORGET TO TURN ON DYNO
+
 
